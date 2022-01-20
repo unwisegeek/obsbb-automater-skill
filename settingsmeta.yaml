@@ -1,22 +1,15 @@
 
 skillMetadata:
   sections:
-    - name: Options << Name of section
+    - name: OBS BB API
       fields:
-        - name: internal_python_variable_name
+        - name: api_host
           type: text
-          label: Setting Friendly Display Name
+          label: API Host Address
           value: ""
-          placeholder: demo prompt in the input box
-    - name: Login << Name of another section
-      fields:
-        - type: label
-          label: Just a little bit of extra info for the user to understand following settings
-        - name: username
+          placeholder: "localhost"
+        - name: api_port
           type: text
-          label: Username
+          label: API Host Port
           value: ""
-        - name: password
-          type: password
-          label: Password
-          value: ""
+          placeholder: "5000"
