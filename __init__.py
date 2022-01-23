@@ -67,7 +67,7 @@ class ObsbbAutomater(MycroftSkill):
                 r = requests.get(f'http://{self.API_HOST}:{self.API_PORT}/api/automation?trigger={endpoint}')
             else:
                 self.speak_dialog('There was an error triggering the automation.')
-        else:
+        else:I'm
             self.speak_dialog('There was an error retrieving automations.')
 
     @intent_file_handler('cheer.intent')
